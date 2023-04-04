@@ -1,4 +1,4 @@
-console.log("Hello world!");
+console.log("Hello world! Ten kod jest już w repozytorium :)");
 
 let backgroundButton = document.querySelector(".body__backgroundButton");
 let body = document.querySelector(".body");
