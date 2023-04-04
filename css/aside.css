@@ -1,0 +1,23 @@
+.aside {
+    color: #e23b7fde;
+    margin: 40px 0 35px 0;
+    text-align: center;
+}
+
+.aside__links {
+    width: 150px;
+    height: 30px;
+    font-weight: 600;
+    padding: 5px;
+    color: black;
+    margin: auto 25px 25px;
+    display: inline-block;
+    background-color: #fc4a9261;
+    border-radius: 5px;
+    border: 2px solid #fc4a92d6;
+    text-decoration: none;
+}
+
+.aside__links:hover {
+    background-color: #efefef;
+}

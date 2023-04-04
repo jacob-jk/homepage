@@ -1,0 +1,23 @@
+.section {
+    text-align: justify;
+}
+
+.section__header {
+    color: #e23b7fde;
+    margin: 40px 0 35px 0;
+    text-align: center;
+}
+
+.section__button {
+    background-color: #fc4a9242;
+    border-radius: 5px;
+    border: 1px solid #fc4a92d6;
+}
+
+.section__button:hover {
+    background-color: #efefef;
+}
+
+.hidden {
+    display: none;
+}
