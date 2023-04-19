@@ -1,4 +1,4 @@
-# Polskie Legenty Tenisa 
+# Polskie Legendy Tenisa 
 
 ![Agnieszka](https://raw.githubusercontent.com/jacob-jk/homepage/master/images/agnieszka.png)
 

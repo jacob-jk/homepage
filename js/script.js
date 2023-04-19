@@ -8,14 +8,12 @@
         const motiveName = document.querySelector(".body__motiveName");
 
         body.classList.toggle("body__motive");
-        body.classList.contains("body__motive") ? motiveName.innerText = "jasny" : motiveName.innerText = "ciemny";
+        body.classList.contains("body__motive")
+            ?
+            motiveName.innerText = "jasny"
+            :
+            motiveName.innerText = "ciemny"
 
-        //     if (body.classList.contains("body__motive")) {
-        //         motiveName.innerText = "jasny";
-        //     } else {
-        //         motiveName.innerText = "ciemny";
-        //     }
-        // });
     };
 
     const init = () => {
@@ -23,7 +21,7 @@
         backgroundButton.addEventListener("click", onChangeBackgroundClick);
 
         welcome();
-       
+
     };
 
     init();
@@ -33,16 +31,17 @@
     const togglePhoto = () => {
         const buttonElement = document.querySelector(".section__button");
         const photoElement = document.querySelector(".section__photo");
-        
-    buttonElement.addEventListener("click", () => {
-        if (photoElement.classList.contains("hidden")) {
-            buttonElement.innerText = "Usuń zdjęcie";
-            photoElement.classList.remove("hidden");
-        } else {
-            photoElement.classList.add("hidden");
-            buttonElement.innerText = "Dodaj zdjęcie";
+
+        buttonElement.addEventListener("click", () => {
+            photoElement.classList.toggle("hidden");
+            photoElement.classList.contains("hidden")
+                ?
+                buttonElement.innerText = "Dodaj zdjęcie"
+                :
+                buttonElement.innerText = "Usuń zdjęcie"
+
         }
-    });
-};
-togglePhoto();
+        );
+    };
+    togglePhoto();
 }
